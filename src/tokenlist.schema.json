@@ -109,9 +109,9 @@
         "address": {
           "type": "string",
           "description": "The checksummed address of the token on the specified chain ID",
-          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "pattern": "^atx[a-zA-Z0-9]{39}$",
           "examples": [
-            "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            "atx19qg98cnzlnvtwlxg26rlte4cpanhh9hljeq4d7"
           ]
         },
         "decimals": {
