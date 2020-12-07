@@ -22,7 +22,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepublishOnly": "tsdx test && tsdx build"
+    "prepublishOnly": "tsdx build"
   },
   "peerDependencies": {},
   "husky": {
